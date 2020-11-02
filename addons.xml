@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-  <addon id="plugin.video.dramacool" name="DramaCool" version="1.7.11" provider-name="groggyegg">
+  <addon id="plugin.video.dramacool" name="DramaCool" version="1.8.0a" provider-name="isant46">
     <requires>
       <import addon="script.module.beautifulsoup4" version="4.6.2"/>
       <import addon="script.module.resolveurl" version="5.0.38"/>
@@ -33,19 +33,7 @@
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
   </addon>
-  <addon id="script.module.rerouting" name="rerouting" version="0.1.2" provider-name="fredrik-sy">
-    <requires>
-      <import addon="xbmc.python" version="2.25.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib"/>
-    <extension point="xbmc.addon.metadata">
-      <language>en</language>
-      <platform>all</platform>
-      <license>MIT License</license>
-      <source>https://github.com/fredrik-sy/script.module.rerouting</source>
-    </extension>
-  </addon>
-  <addon id="script.module.resolveurl" name="ResolveURL" version="5.1.8" provider-name="gujal">
+  <addon id="script.module.resolveurl" name="ResolveURL" version="5.1.12" provider-name="gujal">
     <requires>
       <!-- <import addon="xbmc.python" version="3.0.0" /> -->
       <import addon="script.module.six" version="0.0.1"/>
